@@ -31,3 +31,14 @@ Documentaries: 'https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY_HE
 ////////////////////////////////////////////////////////////////////API KEY////////////////////////////////////////////////////////////////////////////
 
 API_KEY = "YOUR API KEY"
+
+
+
+
+for adding youtube video,
+
+page url =  https://developers.themoviedb.org/3/movies/get-movie-videos
+
+https://api.themoviedb.org/3/movie/{movie_id}/videos?api_key=<<api_key>>&language=en-US
+
+https://www.npmjs.com/package/react-youtube =====npm i react-youtube

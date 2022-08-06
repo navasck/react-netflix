@@ -9,6 +9,8 @@ import './Banner.css'
 
 
 
+
+
 //(trending/all/week?api_key=71de7d2ef1ed285fb742d2799ba70216)
 //eaqual to
 //(`trending/all/week?api_key=${API_KEY}`)
@@ -33,9 +35,12 @@ function Banner() {
         }
     }, [])
 
+    
+    
+
     return (
         // <div style={{backgroundImage:`url(${movie ? 'https://image.tmdb.org/t/p/original'+movie.backdrop_path : ""})`}}
-         <div style={{backgroundImage:`url(${movie ? imageUrl+movie.backdrop_path : ""})`}}     
+         <div data-test-id="banner" style={{backgroundImage:`url(${movie ? imageUrl+movie.backdrop_path : ""})`}}     
          className='banner'>
          
             <div className='content' >
